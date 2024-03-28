@@ -6,6 +6,12 @@ import (
 	"hash"
 )
 
+const (
+	BLOB = "blob"
+	LIST = "list"
+	TREE = "tree"
+)
+
 type Link struct {
 	Name string
 	Hash []byte
